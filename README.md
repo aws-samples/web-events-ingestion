@@ -39,6 +39,10 @@ From that file, the domain is `d21i53hqr1nkq2.cloudfront.net` and the url https:
 
 Once you open that url, a screen like the following will be rendered:
 
+![Web Screenshot](assets/doc/usage-screenshot-1.png)
+
+If you resize the browser window small enough to make the vertical scrolling bar appear and, you do scroll down & up a few times, events will be triggere, sent to Kinesis Data Streams and, could be find later inside the bucket referenced from the `outputs.json` file (above)
+
 ## CDK
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app. The build step is not required when using JavaScript.
