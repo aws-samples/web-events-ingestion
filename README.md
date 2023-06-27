@@ -35,13 +35,13 @@ Sample `outputs.json` file:
 }
 ```
 
-From that file, the domain is `d21i53hqr1nkq2.cloudfront.net` and the url https://d21i53hqr1nkq2.cloudfront.net
+From that file, the domain is `d21i53hqr1nkq2.cloudfront.net` and the URL https://d21i53hqr1nkq2.cloudfront.net
 
-Once you open that url, a screen like the following will be rendered:
+Once you open that URL, a screen like the following will be rendered:
 
 ![Web Screenshot](assets/doc/usage-screenshot-1.png)
 
-If you resize the browser window small enough to make the vertical scrolling bar appear and, you do scroll down & up a few times, events will be triggere, sent to Kinesis Data Streams and, could be find later inside the bucket referenced from the `outputs.json` file (above)
+If you resize the browser window small enough to make the vertical scrolling bar appear and, you do scroll down & up a few times, events will be triggered, sent to Kinesis Data Streams and, could be found later inside the bucket referenced from the `outputs.json` file (above)
 
 ## CDK
 
