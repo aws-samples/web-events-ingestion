@@ -1,6 +1,6 @@
 # Welcome to Web Events Ingestion Project
 
-This project aims to be a working proof of concept of web browser generated events ingestion, using Amazon Kinesis JS SDK, enriched via AWS Lambda and being persisted in Amazon S3, for later quering using Amazon Athena, or alike.
+This project aims to be a working proof of concept of web browser generated events ingestion, using Amazon Kinesis JS SDK, enriched via AWS Lambda and being persisted in Amazon S3, for later querying using Amazon Athena, or alike.
 
 ## Requirements
 
