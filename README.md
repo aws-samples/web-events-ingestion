@@ -16,6 +16,29 @@ This project aims to be a working proof of concept of web browser generated even
 
 * `deploy.sh` file has been tailored for easier CDK deployment
 
+## Usage 
+
+Once `deploy.sh` has executed successfully, you can test the sample by opening in a web browser the URL of the generated CloudFront distribution, which can be found in the `outputs.json` file, under the `distributionDomainName` key, as in the following example:
+
+Sample `outputs.json` file:
+
+```
+{
+  "EventsStack": {
+    "bucket": "eventsstack-bucket839087e7-157fkwiz3i4cr",
+    "distributionId": "E37A62Z43LTGA",
+    "distributionDomainName": "d21i53hqr1nkq2.cloudfront.net",
+    "poolId": "us-west-1:f27dc64f-03d7-4638-6a76-f41d8f1e6d67",
+    "region": "us-west-1",
+    "streamName": "EventsStack-ClickStream12632BE-7gJVwrI4dsG"
+  }
+}
+```
+
+From that file, the domain is `d21i53hqr1nkq2.cloudfront.net` and the url https://d21i53hqr1nkq2.cloudfront.net
+
+Once you open that url, a screen like the following will be rendered:
+
 ## CDK
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app. The build step is not required when using JavaScript.
