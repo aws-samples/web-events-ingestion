@@ -14,7 +14,7 @@ This project aims to be a working proof of concept of web browser generated even
 
 ## Deployment
 
-* `deploy.sh` file has been tailored for easier CDK deployment
+* `deploy.sh` file has been tailored for easier CDK deployment ([jq](https://jqlang.github.io/jq/) needs to be installed)
 
 ## Usage 
 
