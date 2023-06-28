@@ -14,7 +14,13 @@ This project aims to be a working proof of concept of web browser generated even
 
 ## Deployment
 
-* `deploy.sh` file has been tailored for easier CDK deployment ([jq](https://jqlang.github.io/jq/) needs to be installed)
+* `deploy.sh` file has been tailored for easier CDK deployment ([jq](https://jqlang.github.io/jq/ ) needs to be installed)
+
+## Undeployment
+
+* `destroy.sh` includes a one-liner script to delete the CDK created CloudFormation stack and associated resources.
+
+PS: It won't automatically destroy S3 buckets so you can later check the stored contents
 
 ## Usage 
 
