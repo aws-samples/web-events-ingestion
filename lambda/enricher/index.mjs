@@ -17,5 +17,5 @@ export const handler = async (event) => {
     result.push({ recordId: record.recordId, result: 'Ok', data: base64 })
   }
   console.log('result: ', result)
-  return result
+  return { records: result}
 }
