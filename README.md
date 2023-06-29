@@ -47,7 +47,7 @@ Once you open that URL, a screen like the following will be rendered:
 
 ![Web Screenshot](assets/doc/usage-screenshot-1.png)
 
-If you resize the browser window small enough to make the vertical scrolling bar appear and, you do scroll down & up a few times, events will be triggered. These will be sent to Kinesis Data Streams and, could be found later inside the bucket referenced from the `outputs.json` file (`eventsstack-bucket839087e7-157fkwiz3i4cr` from sample above)
+If you scroll down & up a few times within the `div` element with the visible scroll bar, events will be triggered. These will be sent to Kinesis Data Streams and, could be found later inside the bucket referenced from the `outputs.json` file (`eventsstack-bucket839087e7-157fkwiz3i4cr` from sample above)
 
 ## CDK
 
